@@ -50,7 +50,7 @@ from flask import Flask,request,jsonify
 
 app = Flask(__name__)
         
-@app.route('/movie', methods=['POST'])
+@app.route('/movie', methods=['GET'])
 def recommend_movies():
         res = recommend(request.args.get('title'))
         return jsonify(res)
