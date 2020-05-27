@@ -1,6 +1,6 @@
 # BioScope movie_recommendation_api
 
-- Project link: https://github.com/priyamvadthegame/BasicUiBioScopeProject
+- Web app Project link: https://github.com/priyamvadthegame/BasicUiBioScopeProject
 - Website in progress: https://bioscope-ui.herokuapp.com/
 
 #### We have built a basic content based recommendation engine which recommends top 20 movies from the dataset to the user.
