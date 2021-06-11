@@ -47,10 +47,10 @@ def recommend(title):
                 return   recommendation_data.to_dict('records')
 
 from flask import Flask,request,jsonify
-from flask_cors import CORS
+#from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)       
+#CORS(app)       
 
 @app.route('/movie', methods=['GET'])
 def recommend_movies():
